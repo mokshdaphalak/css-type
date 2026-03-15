@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />   
+    <title>CSS Types in One Code</title>
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f3f3;
+            margin: 30px;
+        }
+        .heading {
+            text-align: center;
+            color: #DC143C;
+        }   
+        .warm-box{
+            background: #f396f3;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+        .warm-img{
+            width: 200px;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+        .warm-heading{
+            color: #640564;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="heading">CSS TypesDemonstration (Inline, Internal, External)</h1>
+
+
+    <div class="kit-kat-box">
+        <h2 class="kitkat-heading">EXTERNAL CSS</h2>
+        <p>
+            <img src="./kitkat.jpg" alt="kitkat Image" class="kitkat-img"/>
+            <h3>kit-kat</h3>
+            <h5>About this item</h5>
+            <ul>
+                <li>PACK CONTENT: The pack contains KITKAT wafer bar of 28.5g</li>
+                <li>CRISPY WAFER BAR: Indulge in the delicious crispy wafer bar and make your breaks delightful</li>
+                <li>HAVE A BREAK, HAVE A KITKAT: Just unwrap your KITKAT, break off one of the fingers, snap into two and enjoy!</li>
+            </ul>
+        </p>
+        <button class="buy-button">
+            Order now
+        </button>
+    </div>
+    
+   
+    <div style="background:#fae1a2; padding:15px; border-radius:8px; margin-bottom:20px;">
+        <h2 style="color:goldenrod;">INLINE CSS</h2>
+        <p style="font-size:18px;">
+           <img src="./FERRERO.jpg" alt="Ferrero Image"  style="width: 200px; border-radius: 8px;"/>
+           <h4>Ferrero Rocher</h4>
+           <h5>About this item</h5>
+           <ul>
+            <li>16 delicious Ferrero Rocher, ideal gift for your loved ones</li>
+            <li>A delicious crunchy whole hazelnut with a creamy rich filling, all encased in a crisp wafer shell covered with milk chocolate and gently roasted hazelnut pieces
+</li>
+            <li>Elegant golden wrapper and paper cup make Ferrero Rocher even more unique and special. Always presented in an elegant box</li>
+           </ul>
+        </p>
+        <button class="buy-button">
+            Order now
+        </button>
+    </div>
+
+
+    
+    <div class="warm-box">
+        <h2 class="warm-heading">DOCUMENT CSS</h2>
+        <p>
+            <img src="./warm.jpg"   alt="Warm Image" class="warm-img"/>
+            <h4 >Cadbury Dairy Milk Silk Assorted Chocolate</h4>
+            <h5>About this item</h5>
+            <ul>
+                <li>A premium festive gift pack filled with the rich taste of Cadbury Dairy Milk Silk chocolates (Plain, Oreo & Bubbly).</li>
+                <li>Beautifully wrapped in an elegant purple potli.</li>
+                <li>Perfect for sharing warm wishes and sweet moments with loved ones this festive season.</li> 
+            </ul>
+        </p>
+        <button class="buy-button">
+            Order now
+        </button>
+    </div>
+
+</body>
+</html>
