@@ -1,0 +1,23 @@
+ .kit-kat-box{
+    background: #DC143C;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.kitkat-img{
+    width: 200px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+.buy-button{
+    background: rgb(105, 155, 24);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.kitkat-heading{
+    color: #eccbd2;
+}
